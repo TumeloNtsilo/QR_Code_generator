@@ -1,0 +1,33 @@
+body {
+    background-color: #83c5be;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.generator {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px 15px;
+    margin:auto;
+}
+
+#input {
+    margin-bottom: 20px;
+}
+
+#input input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#button button {
+    width: 100%;
+    box-sizing: border-box;
+}
