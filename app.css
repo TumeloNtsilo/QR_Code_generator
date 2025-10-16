@@ -4,18 +4,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;          
+    margin: 0;
 }
 
 .generator {
     background-color: white;
     width: 200px;
     height: 200px;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 0px 15px;
     margin:auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px white;
 }
 
 #input {
@@ -25,9 +28,13 @@ body {
 #input input {
     width: 100%;
     box-sizing: border-box;
+    border-radius: 4px;
 }
 
 #button button {
     width: 100%;
     box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #f7b801;
+    border-color: #f7b801;
 }
