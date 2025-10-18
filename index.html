@@ -12,16 +12,22 @@
     <div class="container">
         <h1>QR Code Generator</h1>
         <div class="generator">
-            <h4>Enter your text or url:</h4>
+            <p>Enter your text or url:</p>
             <div id="input">
-                <input type="text" placeholder="Text or url" required>
+                <input id="inputText" type="text" placeholder="Text or url" required>
+            </div>
+
+            <div id="imgBox">
+                <img src="" id="qrImage">
             </div>
 
             <div id="button">
-                <button>Generate QR Code</button>
+                <button onclick="generateImage()">Generate QR Code</button>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
