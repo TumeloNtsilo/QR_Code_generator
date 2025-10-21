@@ -10,8 +10,7 @@ body {
 
 .generator {
     background-color: white;
-    width: 200px;
-    /* height: 180px; */
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -53,4 +52,47 @@ body {
 #button button:hover {
     background-color: #56ab91;
 
+}
+
+#imgBox {
+    width: 150px;
+    border-radius: 5px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+#imgBox #qrImage {
+    width: 100%;
+    padding: 5px;
+}
+
+#imgBox.show-img {
+    max-height: 300px;
+    margin: 5px auto;
+    border: 1px solid black;
+}
+
+.error {
+    animation: shake 0.1s linear 5;
+}
+
+@keyframes shake {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+    
 }
